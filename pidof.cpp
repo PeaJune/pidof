@@ -6,7 +6,7 @@
 #include <fstream>
 #include <cstring>
 
-// /proc/stat中显示名称长度为16, 实际字符升序为15.
+// /proc/stat中显示名称长度为16, 实际字符长度为15.
 #define MAX_LEN 15
 
 bool check_cmdline(std::string &path, std::string &name)
